@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./App.css";
 /*import Creator from "./Creator";*/
 import Forecast from "./Forecast";
 import WeatherSearch from "./WeatherSearch";
