@@ -1,0 +1,188 @@
+h1,
+h2,
+h4,
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 70px;
+    border-style: none;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 170px;
+    width: 200px;
+}
+
+h2 {
+    color: #ff7d53;
+    position: relative;
+    left: 253px;
+    bottom: 95px;
+    width: 50px;
+}
+
+h4 {
+    font-family: "Fredoka One";
+    font-size: 20px;
+    color: 0000;
+    position: relative;
+    bottom: 150px;
+    text-transform: capitalize;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 850px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border-radius: 20px;
+    height: 670px;
+}
+
+.search {
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.row_temperature {
+    border: solid purple 10px;
+}
+
+.present_temperature {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.present_temperature h1 {
+    margin-top: 75px;
+}
+
+.col-C {
+    width: 40%;
+}
+
+.col-F {
+    margin-left: 80px;
+    width: 50%;
+}
+
+.row-button {
+    text-align: center;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.temperature {
+    float: left;
+    width: 50px;
+}
+
+.col p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.forecast,
+.status {
+    color: #ff7d53;
+    font-weight: 800;
+}
+
+.metrics {
+    margin-bottom: 100px;
+    margin-right: 115px;
+    position: relative;
+    bottom: 90px;
+    right: 60px;
+}
+
+#fht,
+#cel {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 0 8px 0 8px;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    bottom: 170px;
+}
+
+#cel {
+    left: 30px;
+    bottom: 195px;
+}
+
+#fht:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+#cel:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+#sunny {
+    width: 250px;
+    height: auto;
+    margin-left: 0;
+}
+
+#celsius #fahrenheit {
+    font-size: 12px;
+    float: right;
+}
+
+
+#cloudy {
+    width: 85px;
+}
+
+
+#container_forecast {
+    position: relative;
+    bottom: 240px;
+}
+
+#container_current_temp {
+    position: relative;
+    bottom: 120px;
+}
+
+
+.temp-conditions {
+    font-size: 14px;
+    color: black;
+    position: relative;
+    right: 50px;
+    top: 30px;
+}
